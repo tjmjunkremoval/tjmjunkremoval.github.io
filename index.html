@@ -1,8 +1,34 @@
-
+<button class="primary">Call Now</button>
+<button class="secondary">Free Estimate</button>
 <!doctype html>
 <html lang="en">
 <head>
   <style>
+/* FIX BUTTONS */
+button, .btn {
+  background: #1e90ff !important;
+  color: #fff !important;
+  border: none !important;
+  opacity: 1 !important;
+  box-shadow: none !important;
+}
+
+/* Hover effect */
+button:hover, .btn:hover {
+  background: #63b3ff !important;
+}
+
+/* Fix dark overlay buttons */
+a[style*="background"], button[style*="background"] {
+  background: #1e90ff !important;
+  color: #fff !important;
+}
+
+/* Remove weird shading */
+* {
+  filter: none !important;
+}
+</style>
 body {
   background-color: #000;
   color: #fff;
